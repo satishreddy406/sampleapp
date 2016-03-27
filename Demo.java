@@ -12,7 +12,7 @@ public class Demo {
 		Scanner sc2 = new Scanner(System.in);
 		int age = sc2.nextInt();
 
-		System.out.println("Enter patient email");
+		//System.out.println("Enter patient email");
 		Scanner sc3 = new Scanner(System.in);
 		String email = sc3.next();
 
@@ -26,16 +26,9 @@ public class Demo {
 		String status =service.createPatient(patient);
 		System.out.println("Status ==>" + status);
 		
-		
-		
-		
-		
-		
-		
-
-		
-		
-		
+		System.out.println("Git diff");
+	
+	
 		
 		
 	}

@@ -16,9 +16,7 @@ public class Patient {
 	}
 	
 	
-	
-	
-	
+
 	@Override
 	public String toString() {
 		return "Patient [name=" + name + ", age=" + age + ", email=" + email + ", phone=" + phone + "]";
